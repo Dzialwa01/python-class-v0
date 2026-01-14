@@ -10,4 +10,3 @@ def half(num):
 print(half(8))    # 4
 print(half(15))   # 7.5
 print(half(90))   # 45
-
