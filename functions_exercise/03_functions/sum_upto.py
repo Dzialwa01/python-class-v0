@@ -13,4 +13,3 @@ def sum_upto(num, sum1 = 0):
 
 print(sum_upto(5))   # 15
 print(sum_upto(10))  # 55
-
