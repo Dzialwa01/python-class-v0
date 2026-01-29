@@ -8,7 +8,6 @@ def print2d(matrix):
     for list in matrix: # Takes one element in a the matrix which is list
         for j in range(len(list)): # to ensure that we iterate through the each list
             print(list[j])
-
 array1 = [
     ["a", "b", "c", "d"],
     ["e", "f"],
