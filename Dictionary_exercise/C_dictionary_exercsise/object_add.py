@@ -37,4 +37,3 @@ obj4 = {"b":5,"c":1,"e":4 }
 
 print(object_add(obj3, obj4))
 # { "a": 3, "b": 7, "c": 0, "e": 4 }
-
