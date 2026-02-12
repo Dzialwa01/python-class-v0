@@ -8,7 +8,7 @@
 # The function should return the word in the sentence that contains the
 # character the greatest number of times.
 #
-# You can assume the sentence contains at least one word.
+# You can assume the sentence contains at least one word.a
 # If there is a tie, return the word that appears first in the sentence.
 
 def most_letter_word(sentence, char):
