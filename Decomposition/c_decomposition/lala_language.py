@@ -17,10 +17,16 @@ def lala_language(sentence):
     for word in words:
 
         if len(word) > 3:
+            word1 = ""
+
             for ch in word:
+    
                 if ch in vowels: 
-                    word = word.replace(ch, ch + "l" + ch) # to add the "l" and the same letter in the sentence.
-            lst.append(word)   
+                   word1 += ch + "l" + ch # to add the "l" and the same letter in the sentence.
+                else:
+                    word1 += ch
+
+            lst.append(word1)   
         else: # just adds the word in the list if it has less than 3 letters
             lst.append(word)        
 
