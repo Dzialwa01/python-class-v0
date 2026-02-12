@@ -15,13 +15,9 @@ def most_letter_word(sentence, char):
 
     words = sentence.split(" ")
     dict1 = {}
-    count = 0
 
-    for word in words:
-        count = 0
-        for ch in word:
-            if ch == char: 
-                count += 1 
+    for word in words:         
+        count = word.count(char) 
         dict1[word] = count # to store the words and the number of letters in the word == char
 
     ans = [key for key in dict1.keys() if dict1[key] == max(dict1.values())] # making a list of all the words with the highest number of the character appearances
@@ -40,7 +36,7 @@ print(most_letter_word(
 
 print(most_letter_word(
 'I hope sophomore year comes soon','o'
-))# 'sophomore'
+))# 'sophomore'h
 
 print(most_letter_word(
 'I hope sophomore year comes soon','s'
