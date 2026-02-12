@@ -11,7 +11,7 @@ def pick_perfect_squares(lst):
     ans_list = []
 
     for num in lst:
-        for i in range(num):
+        for i in range(1, num):
 
             if i*i > num: # adding this to eliminate the number of interations
                 break
