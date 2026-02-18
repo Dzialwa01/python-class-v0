@@ -1,0 +1,4 @@
+Python is easy
+File handling is important
+Learning step by step
+
