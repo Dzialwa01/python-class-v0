@@ -34,4 +34,4 @@ file = open("data.txt", 'r')
 lines = file.readlines()
 print(lines)
 file.close()
-# print out a list where the elements are each line of the file
+# This code prints out a list where the elements are each line of the file
