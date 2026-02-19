@@ -1,0 +1,3 @@
+Hello Python
+Using the with statement
+Learning best practices
