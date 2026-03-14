@@ -1,5 +1,5 @@
 # Dzialwa Nemakonde
-# 13 March 2026
+# 3 March 2026
 
 # 1. What is the assistant role
 # The assistant role represents how the AI responds, the style, tone and format of answers as well as the example answers we want the AI to follow.
@@ -73,4 +73,3 @@
 # Final takeaway => The assistant role is not just for replies, ot os a powerful tool to guide how the AI should respond. 
 
 # Practice and exercises done in AI application repository
-
